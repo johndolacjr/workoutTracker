@@ -1,8 +1,3 @@
-const router = require("express").Router();
-const Workout = require("./")
-const schema = require("../models/schema.js")
-// var compression = require('compression')
-
 const API = {
   async getLastWorkout() {
     let res;
@@ -49,4 +44,3 @@ const API = {
 };
 
 
-module.exports = router;
